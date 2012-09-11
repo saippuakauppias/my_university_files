@@ -9,6 +9,6 @@
 Скриншоты
 ---------
 
-.. image:: https://github.com/saippuakauppias/my_university_files/1_year/computer_practice/screenshot1.png
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/1_year/computer_practice/screenshot1.png
 
-.. image:: https://github.com/saippuakauppias/my_university_files/1_year/computer_practice/screenshot2.png
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/1_year/computer_practice/screenshot2.png
