@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet5" targetNamespace="http://tempuri.org/DataSet5.xsd" xmlns:mstns="http://tempuri.org/DataSet5.xsd" xmlns="http://tempuri.org/DataSet5.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet5" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet5" msprop:Generator_DataSetName="DataSet5">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GROUPS" msprop:Generator_UserTableName="GROUPS" msprop:Generator_RowDeletedName="GROUPSRowDeleted" msprop:Generator_RowChangedName="GROUPSRowChanged" msprop:Generator_RowClassName="GROUPSRow" msprop:Generator_RowChangingName="GROUPSRowChanging" msprop:Generator_RowEvArgName="GROUPSRowChangeEvent" msprop:Generator_RowEvHandlerName="GROUPSRowChangeEventHandler" msprop:Generator_TableClassName="GROUPSDataTable" msprop:Generator_TableVarName="tableGROUPS" msprop:Generator_RowDeletingName="GROUPSRowDeleting" msprop:Generator_TablePropName="GROUPS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_GROUP" msprop:Generator_UserColumnName="ID_GROUP" msprop:Generator_ColumnVarNameInTable="columnID_GROUP" msprop:Generator_ColumnPropNameInRow="ID_GROUP" msprop:Generator_ColumnPropNameInTable="ID_GROUPColumn" type="xs:decimal" />
+              <xs:element name="GROUPNAME" msprop:Generator_UserColumnName="GROUPNAME" msprop:Generator_ColumnVarNameInTable="columnGROUPNAME" msprop:Generator_ColumnPropNameInRow="GROUPNAME" msprop:Generator_ColumnPropNameInTable="GROUPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="STUDENTS" msprop:Generator_UserTableName="STUDENTS" msprop:Generator_RowDeletedName="STUDENTSRowDeleted" msprop:Generator_TableClassName="STUDENTSDataTable" msprop:Generator_RowChangedName="STUDENTSRowChanged" msprop:Generator_RowClassName="STUDENTSRow" msprop:Generator_RowChangingName="STUDENTSRowChanging" msprop:Generator_RowEvArgName="STUDENTSRowChangeEvent" msprop:Generator_RowEvHandlerName="STUDENTSRowChangeEventHandler" msprop:Generator_TablePropName="STUDENTS" msprop:Generator_TableVarName="tableSTUDENTS" msprop:Generator_RowDeletingName="STUDENTSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_STUDENT" msprop:Generator_UserColumnName="ID_STUDENT" msprop:Generator_ColumnPropNameInRow="ID_STUDENT" msprop:Generator_ColumnVarNameInTable="columnID_STUDENT" msprop:Generator_ColumnPropNameInTable="ID_STUDENTColumn" type="xs:decimal" />
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MARKS" msprop:Generator_UserTableName="MARKS" msprop:Generator_RowDeletedName="MARKSRowDeleted" msprop:Generator_TableClassName="MARKSDataTable" msprop:Generator_RowChangedName="MARKSRowChanged" msprop:Generator_RowClassName="MARKSRow" msprop:Generator_RowChangingName="MARKSRowChanging" msprop:Generator_RowEvArgName="MARKSRowChangeEvent" msprop:Generator_RowEvHandlerName="MARKSRowChangeEventHandler" msprop:Generator_TablePropName="MARKS" msprop:Generator_TableVarName="tableMARKS" msprop:Generator_RowDeletingName="MARKSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VALUE_MARK" msprop:Generator_UserColumnName="VALUE_MARK" msprop:Generator_ColumnPropNameInRow="VALUE_MARK" msprop:Generator_ColumnVarNameInTable="columnVALUE_MARK" msprop:Generator_ColumnPropNameInTable="VALUE_MARKColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DATE_MARK" msprop:Generator_UserColumnName="DATE_MARK" msprop:Generator_ColumnPropNameInRow="DATE_MARK" msprop:Generator_ColumnVarNameInTable="columnDATE_MARK" msprop:Generator_ColumnPropNameInTable="DATE_MARKColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISCNAME" msprop:Generator_UserColumnName="DISCNAME" msprop:Generator_ColumnPropNameInRow="DISCNAME" msprop:Generator_ColumnVarNameInTable="columnDISCNAME" msprop:Generator_ColumnPropNameInTable="DISCNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GROUPS" />
+      <xs:field xpath="mstns:ID_GROUP" />
+    </xs:unique>
+    <xs:unique name="STUDENTS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:STUDENTS" />
+      <xs:field xpath="mstns:ID_STUDENT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet2" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="VIEW_MARKS_COURSE" msprop:Generator_UserTableName="VIEW_MARKS_COURSE" msprop:Generator_RowDeletedName="VIEW_MARKS_COURSERowDeleted" msprop:Generator_RowChangedName="VIEW_MARKS_COURSERowChanged" msprop:Generator_RowClassName="VIEW_MARKS_COURSERow" msprop:Generator_RowChangingName="VIEW_MARKS_COURSERowChanging" msprop:Generator_RowEvArgName="VIEW_MARKS_COURSERowChangeEvent" msprop:Generator_RowEvHandlerName="VIEW_MARKS_COURSERowChangeEventHandler" msprop:Generator_TableClassName="VIEW_MARKS_COURSEDataTable" msprop:Generator_TableVarName="tableVIEW_MARKS_COURSE" msprop:Generator_RowDeletingName="VIEW_MARKS_COURSERowDeleting" msprop:Generator_TablePropName="VIEW_MARKS_COURSE">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COURSE" msprop:Generator_UserColumnName="COURSE" msprop:Generator_ColumnVarNameInTable="columnCOURSE" msprop:Generator_ColumnPropNameInRow="COURSE" msprop:Generator_ColumnPropNameInTable="COURSEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_GROUP" msprop:Generator_UserColumnName="ID_GROUP" msprop:Generator_ColumnVarNameInTable="columnID_GROUP" msprop:Generator_ColumnPropNameInRow="ID_GROUP" msprop:Generator_ColumnPropNameInTable="ID_GROUPColumn" type="xs:decimal" />
+              <xs:element name="GROUPNAME" msprop:Generator_UserColumnName="GROUPNAME" msprop:Generator_ColumnVarNameInTable="columnGROUPNAME" msprop:Generator_ColumnPropNameInRow="GROUPNAME" msprop:Generator_ColumnPropNameInTable="GROUPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VALUE_MARK" msprop:Generator_UserColumnName="VALUE_MARK" msprop:Generator_ColumnVarNameInTable="columnVALUE_MARK" msprop:Generator_ColumnPropNameInRow="VALUE_MARK" msprop:Generator_ColumnPropNameInTable="VALUE_MARKColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DATE_MARK" msprop:Generator_UserColumnName="DATE_MARK" msprop:Generator_ColumnVarNameInTable="columnDATE_MARK" msprop:Generator_ColumnPropNameInRow="DATE_MARK" msprop:Generator_ColumnPropNameInTable="DATE_MARKColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DISCNAME" msprop:Generator_UserColumnName="DISCNAME" msprop:Generator_ColumnVarNameInTable="columnDISCNAME" msprop:Generator_ColumnPropNameInRow="DISCNAME" msprop:Generator_ColumnPropNameInTable="DISCNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

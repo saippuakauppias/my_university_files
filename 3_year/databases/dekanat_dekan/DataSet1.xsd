@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GROUPS" msprop:Generator_UserTableName="GROUPS" msprop:Generator_RowDeletedName="GROUPSRowDeleted" msprop:Generator_RowChangedName="GROUPSRowChanged" msprop:Generator_RowClassName="GROUPSRow" msprop:Generator_RowChangingName="GROUPSRowChanging" msprop:Generator_RowEvArgName="GROUPSRowChangeEvent" msprop:Generator_RowEvHandlerName="GROUPSRowChangeEventHandler" msprop:Generator_TableClassName="GROUPSDataTable" msprop:Generator_TableVarName="tableGROUPS" msprop:Generator_RowDeletingName="GROUPSRowDeleting" msprop:Generator_TablePropName="GROUPS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COURSE" msprop:Generator_UserColumnName="COURSE" msprop:Generator_ColumnPropNameInRow="COURSE" msprop:Generator_ColumnVarNameInTable="columnCOURSE" msprop:Generator_ColumnPropNameInTable="COURSEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GROUPNAME" msprop:Generator_UserColumnName="GROUPNAME" msprop:Generator_ColumnPropNameInRow="GROUPNAME" msprop:Generator_ColumnVarNameInTable="columnGROUPNAME" msprop:Generator_ColumnPropNameInTable="GROUPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VALUE_MARK" msprop:Generator_UserColumnName="VALUE_MARK" msprop:Generator_ColumnPropNameInRow="VALUE_MARK" msprop:Generator_ColumnVarNameInTable="columnVALUE_MARK" msprop:Generator_ColumnPropNameInTable="VALUE_MARKColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DATE_MARK" msprop:Generator_UserColumnName="DATE_MARK" msprop:Generator_ColumnPropNameInRow="DATE_MARK" msprop:Generator_ColumnVarNameInTable="columnDATE_MARK" msprop:Generator_ColumnPropNameInTable="DATE_MARKColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DISCNAME" msprop:Generator_UserColumnName="DISCNAME" msprop:Generator_ColumnPropNameInRow="DISCNAME" msprop:Generator_ColumnVarNameInTable="columnDISCNAME" msprop:Generator_ColumnPropNameInTable="DISCNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_COURSES" msprop:Generator_UserTableName="VIEW_COURSES" msprop:Generator_RowDeletedName="VIEW_COURSESRowDeleted" msprop:Generator_RowChangedName="VIEW_COURSESRowChanged" msprop:Generator_RowClassName="VIEW_COURSESRow" msprop:Generator_RowChangingName="VIEW_COURSESRowChanging" msprop:Generator_RowEvArgName="VIEW_COURSESRowChangeEvent" msprop:Generator_RowEvHandlerName="VIEW_COURSESRowChangeEventHandler" msprop:Generator_TableClassName="VIEW_COURSESDataTable" msprop:Generator_TableVarName="tableVIEW_COURSES" msprop:Generator_RowDeletingName="VIEW_COURSESRowDeleting" msprop:Generator_TablePropName="VIEW_COURSES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COURSE" msprop:Generator_UserColumnName="COURSE" msprop:Generator_ColumnVarNameInTable="columnCOURSE" msprop:Generator_ColumnPropNameInRow="COURSE" msprop:Generator_ColumnPropNameInTable="COURSEColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VIEW_MARKS_FAC" msprop:Generator_UserTableName="VIEW_MARKS_FAC" msprop:Generator_RowDeletedName="VIEW_MARKS_FACRowDeleted" msprop:Generator_TableClassName="VIEW_MARKS_FACDataTable" msprop:Generator_RowChangedName="VIEW_MARKS_FACRowChanged" msprop:Generator_RowClassName="VIEW_MARKS_FACRow" msprop:Generator_RowChangingName="VIEW_MARKS_FACRowChanging" msprop:Generator_RowEvArgName="VIEW_MARKS_FACRowChangeEvent" msprop:Generator_RowEvHandlerName="VIEW_MARKS_FACRowChangeEventHandler" msprop:Generator_TablePropName="VIEW_MARKS_FAC" msprop:Generator_TableVarName="tableVIEW_MARKS_FAC" msprop:Generator_RowDeletingName="VIEW_MARKS_FACRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COURSE" msprop:Generator_UserColumnName="COURSE" msprop:Generator_ColumnPropNameInRow="COURSE" msprop:Generator_ColumnVarNameInTable="columnCOURSE" msprop:Generator_ColumnPropNameInTable="COURSEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GROUPNAME" msprop:Generator_UserColumnName="GROUPNAME" msprop:Generator_ColumnPropNameInRow="GROUPNAME" msprop:Generator_ColumnVarNameInTable="columnGROUPNAME" msprop:Generator_ColumnPropNameInTable="GROUPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VALUE_MARK" msprop:Generator_UserColumnName="VALUE_MARK" msprop:Generator_ColumnPropNameInRow="VALUE_MARK" msprop:Generator_ColumnVarNameInTable="columnVALUE_MARK" msprop:Generator_ColumnPropNameInTable="VALUE_MARKColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DATE_MARK" msprop:Generator_UserColumnName="DATE_MARK" msprop:Generator_ColumnPropNameInRow="DATE_MARK" msprop:Generator_ColumnVarNameInTable="columnDATE_MARK" msprop:Generator_ColumnPropNameInTable="DATE_MARKColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DISCNAME" msprop:Generator_UserColumnName="DISCNAME" msprop:Generator_ColumnPropNameInRow="DISCNAME" msprop:Generator_ColumnVarNameInTable="columnDISCNAME" msprop:Generator_ColumnPropNameInTable="DISCNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
