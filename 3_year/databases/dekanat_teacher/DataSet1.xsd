@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GROUPS" msprop:Generator_UserTableName="GROUPS" msprop:Generator_RowDeletedName="GROUPSRowDeleted" msprop:Generator_RowChangedName="GROUPSRowChanged" msprop:Generator_RowClassName="GROUPSRow" msprop:Generator_RowChangingName="GROUPSRowChanging" msprop:Generator_RowEvArgName="GROUPSRowChangeEvent" msprop:Generator_RowEvHandlerName="GROUPSRowChangeEventHandler" msprop:Generator_TableClassName="GROUPSDataTable" msprop:Generator_TableVarName="tableGROUPS" msprop:Generator_RowDeletingName="GROUPSRowDeleting" msprop:Generator_TablePropName="GROUPS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_GROUP" msprop:Generator_UserColumnName="ID_GROUP" msprop:Generator_ColumnPropNameInRow="ID_GROUP" msprop:Generator_ColumnVarNameInTable="columnID_GROUP" msprop:Generator_ColumnPropNameInTable="ID_GROUPColumn" type="xs:decimal" />
+              <xs:element name="NAME_GROUP" msprop:Generator_UserColumnName="NAME_GROUP" msprop:Generator_ColumnPropNameInRow="NAME_GROUP" msprop:Generator_ColumnVarNameInTable="columnNAME_GROUP" msprop:Generator_ColumnPropNameInTable="NAME_GROUPColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COURSE" msprop:Generator_UserColumnName="COURSE" msprop:Generator_ColumnPropNameInRow="COURSE" msprop:Generator_ColumnVarNameInTable="columnCOURSE" msprop:Generator_ColumnPropNameInTable="COURSEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_PROFESSION" msprop:Generator_UserColumnName="ID_PROFESSION" msprop:Generator_ColumnPropNameInRow="ID_PROFESSION" msprop:Generator_ColumnVarNameInTable="columnID_PROFESSION" msprop:Generator_ColumnPropNameInTable="ID_PROFESSIONColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SUBGROUP" msprop:Generator_UserColumnName="SUBGROUP" msprop:Generator_ColumnPropNameInRow="SUBGROUP" msprop:Generator_ColumnVarNameInTable="columnSUBGROUP" msprop:Generator_ColumnPropNameInTable="SUBGROUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="GROUPNAME" msprop:Generator_UserColumnName="GROUPNAME" msprop:Generator_ColumnPropNameInRow="GROUPNAME" msprop:Generator_ColumnVarNameInTable="columnGROUPNAME" msprop:Generator_ColumnPropNameInTable="GROUPNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DISCIPLINES" msprop:Generator_UserTableName="DISCIPLINES" msprop:Generator_RowDeletedName="DISCIPLINESRowDeleted" msprop:Generator_RowChangedName="DISCIPLINESRowChanged" msprop:Generator_RowClassName="DISCIPLINESRow" msprop:Generator_RowChangingName="DISCIPLINESRowChanging" msprop:Generator_RowEvArgName="DISCIPLINESRowChangeEvent" msprop:Generator_RowEvHandlerName="DISCIPLINESRowChangeEventHandler" msprop:Generator_TableClassName="DISCIPLINESDataTable" msprop:Generator_TableVarName="tableDISCIPLINES" msprop:Generator_RowDeletingName="DISCIPLINESRowDeleting" msprop:Generator_TablePropName="DISCIPLINES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_DISCIPLINE" msprop:Generator_UserColumnName="ID_DISCIPLINE" msprop:Generator_ColumnVarNameInTable="columnID_DISCIPLINE" msprop:Generator_ColumnPropNameInRow="ID_DISCIPLINE" msprop:Generator_ColumnPropNameInTable="ID_DISCIPLINEColumn" type="xs:decimal" />
+              <xs:element name="NAME_DISCIPLINE" msprop:Generator_UserColumnName="NAME_DISCIPLINE" msprop:Generator_ColumnVarNameInTable="columnNAME_DISCIPLINE" msprop:Generator_ColumnPropNameInRow="NAME_DISCIPLINE" msprop:Generator_ColumnPropNameInTable="NAME_DISCIPLINEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NUMBER_HOURS" msprop:Generator_UserColumnName="NUMBER_HOURS" msprop:Generator_ColumnVarNameInTable="columnNUMBER_HOURS" msprop:Generator_ColumnPropNameInRow="NUMBER_HOURS" msprop:Generator_ColumnPropNameInTable="NUMBER_HOURSColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_GROUP" msprop:Generator_UserColumnName="ID_GROUP" msprop:Generator_ColumnVarNameInTable="columnID_GROUP" msprop:Generator_ColumnPropNameInRow="ID_GROUP" msprop:Generator_ColumnPropNameInTable="ID_GROUPColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_TYPE" msprop:Generator_UserColumnName="ID_TYPE" msprop:Generator_ColumnVarNameInTable="columnID_TYPE" msprop:Generator_ColumnPropNameInRow="ID_TYPE" msprop:Generator_ColumnPropNameInTable="ID_TYPEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_DISCNAME" msprop:Generator_UserColumnName="ID_DISCNAME" msprop:Generator_ColumnPropNameInRow="ID_DISCNAME" msprop:Generator_ColumnVarNameInTable="columnID_DISCNAME" msprop:Generator_ColumnPropNameInTable="ID_DISCNAMEColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="DISCNAME" msprop:Generator_UserColumnName="DISCNAME" msprop:Generator_ColumnPropNameInRow="DISCNAME" msprop:Generator_ColumnVarNameInTable="columnDISCNAME" msprop:Generator_ColumnPropNameInTable="DISCNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEACHERS" msprop:Generator_UserTableName="TEACHERS" msprop:Generator_RowDeletedName="TEACHERSRowDeleted" msprop:Generator_RowChangedName="TEACHERSRowChanged" msprop:Generator_RowClassName="TEACHERSRow" msprop:Generator_RowChangingName="TEACHERSRowChanging" msprop:Generator_RowEvArgName="TEACHERSRowChangeEvent" msprop:Generator_RowEvHandlerName="TEACHERSRowChangeEventHandler" msprop:Generator_TableClassName="TEACHERSDataTable" msprop:Generator_TableVarName="tableTEACHERS" msprop:Generator_RowDeletingName="TEACHERSRowDeleting" msprop:Generator_TablePropName="TEACHERS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TEACHER" msprop:Generator_UserColumnName="ID_TEACHER" msprop:Generator_ColumnVarNameInTable="columnID_TEACHER" msprop:Generator_ColumnPropNameInRow="ID_TEACHER" msprop:Generator_ColumnPropNameInTable="ID_TEACHERColumn" type="xs:decimal" />
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TEACHERS2DISCIPLINES" msprop:Generator_UserTableName="TEACHERS2DISCIPLINES" msprop:Generator_RowDeletedName="TEACHERS2DISCIPLINESRowDeleted" msprop:Generator_RowChangedName="TEACHERS2DISCIPLINESRowChanged" msprop:Generator_RowClassName="TEACHERS2DISCIPLINESRow" msprop:Generator_RowChangingName="TEACHERS2DISCIPLINESRowChanging" msprop:Generator_RowEvArgName="TEACHERS2DISCIPLINESRowChangeEvent" msprop:Generator_RowEvHandlerName="TEACHERS2DISCIPLINESRowChangeEventHandler" msprop:Generator_TableClassName="TEACHERS2DISCIPLINESDataTable" msprop:Generator_TableVarName="tableTEACHERS2DISCIPLINES" msprop:Generator_RowDeletingName="TEACHERS2DISCIPLINESRowDeleting" msprop:Generator_TablePropName="TEACHERS2DISCIPLINES">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TEACHERS_ID_TEACHER" msprop:Generator_UserColumnName="TEACHERS_ID_TEACHER" msprop:Generator_ColumnVarNameInTable="columnTEACHERS_ID_TEACHER" msprop:Generator_ColumnPropNameInRow="TEACHERS_ID_TEACHER" msprop:Generator_ColumnPropNameInTable="TEACHERS_ID_TEACHERColumn" type="xs:decimal" />
+              <xs:element name="DISCIPLINES_ID_DISCIPLINE" msprop:Generator_UserColumnName="DISCIPLINES_ID_DISCIPLINE" msprop:Generator_ColumnVarNameInTable="columnDISCIPLINES_ID_DISCIPLINE" msprop:Generator_ColumnPropNameInRow="DISCIPLINES_ID_DISCIPLINE" msprop:Generator_ColumnPropNameInTable="DISCIPLINES_ID_DISCIPLINEColumn" type="xs:decimal" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MARKS" msprop:Generator_UserTableName="MARKS" msprop:Generator_RowDeletedName="MARKSRowDeleted" msprop:Generator_RowChangedName="MARKSRowChanged" msprop:Generator_RowClassName="MARKSRow" msprop:Generator_RowChangingName="MARKSRowChanging" msprop:Generator_RowEvArgName="MARKSRowChangeEvent" msprop:Generator_RowEvHandlerName="MARKSRowChangeEventHandler" msprop:Generator_TableClassName="MARKSDataTable" msprop:Generator_TableVarName="tableMARKS" msprop:Generator_RowDeletingName="MARKSRowDeleting" msprop:Generator_TablePropName="MARKS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_MARK" msprop:Generator_UserColumnName="ID_MARK" msprop:Generator_ColumnVarNameInTable="columnID_MARK" msprop:Generator_ColumnPropNameInRow="ID_MARK" msprop:Generator_ColumnPropNameInTable="ID_MARKColumn" type="xs:decimal" />
+              <xs:element name="VALUE_MARK" msprop:Generator_UserColumnName="VALUE_MARK" msprop:Generator_ColumnVarNameInTable="columnVALUE_MARK" msprop:Generator_ColumnPropNameInRow="VALUE_MARK" msprop:Generator_ColumnPropNameInTable="VALUE_MARKColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FULLNAME" msprop:Generator_UserColumnName="FULLNAME" msprop:Generator_ColumnVarNameInTable="columnFULLNAME" msprop:Generator_ColumnPropNameInRow="FULLNAME" msprop:Generator_ColumnPropNameInTable="FULLNAMEColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DATE_MARK" msprop:Generator_UserColumnName="DATE_MARK" msprop:Generator_ColumnVarNameInTable="columnDATE_MARK" msprop:Generator_ColumnPropNameInRow="DATE_MARK" msprop:Generator_ColumnPropNameInTable="DATE_MARKColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ID_STUDENT" msprop:Generator_UserColumnName="ID_STUDENT" msprop:Generator_ColumnVarNameInTable="columnID_STUDENT" msprop:Generator_ColumnPropNameInRow="ID_STUDENT" msprop:Generator_ColumnPropNameInTable="ID_STUDENTColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_TEACHER" msprop:Generator_UserColumnName="ID_TEACHER" msprop:Generator_ColumnVarNameInTable="columnID_TEACHER" msprop:Generator_ColumnPropNameInRow="ID_TEACHER" msprop:Generator_ColumnPropNameInTable="ID_TEACHERColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_DISCIPLINE" msprop:Generator_UserColumnName="ID_DISCIPLINE" msprop:Generator_ColumnVarNameInTable="columnID_DISCIPLINE" msprop:Generator_ColumnPropNameInRow="ID_DISCIPLINE" msprop:Generator_ColumnPropNameInTable="ID_DISCIPLINEColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:GROUPS" />
+      <xs:field xpath="mstns:ID_GROUP" />
+    </xs:unique>
+    <xs:unique name="DISCIPLINES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DISCIPLINES" />
+      <xs:field xpath="mstns:ID_DISCIPLINE" />
+    </xs:unique>
+    <xs:unique name="TEACHERS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TEACHERS" />
+      <xs:field xpath="mstns:ID_TEACHER" />
+    </xs:unique>
+    <xs:unique name="TEACHERS2DISCIPLINES_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TEACHERS2DISCIPLINES" />
+      <xs:field xpath="mstns:TEACHERS_ID_TEACHER" />
+      <xs:field xpath="mstns:DISCIPLINES_ID_DISCIPLINE" />
+    </xs:unique>
+    <xs:unique name="MARKS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:MARKS" />
+      <xs:field xpath="mstns:ID_MARK" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="TEACHERS2DISCIPLINES_DISCIPLINES" msdata:parent="TEACHERS2DISCIPLINES" msdata:child="DISCIPLINES" msdata:parentkey="DISCIPLINES_ID_DISCIPLINE" msdata:childkey="ID_DISCIPLINE" msprop:Generator_UserRelationName="TEACHERS2DISCIPLINES_DISCIPLINES" msprop:Generator_RelationVarName="relationTEACHERS2DISCIPLINES_DISCIPLINES" msprop:Generator_UserChildTable="DISCIPLINES" msprop:Generator_UserParentTable="TEACHERS2DISCIPLINES" msprop:Generator_ParentPropName="TEACHERS2DISCIPLINESRow" msprop:Generator_ChildPropName="GetDISCIPLINESRows" />
+      <msdata:Relationship name="TEACHERS2DISCIPLINES_TEACHERS" msdata:parent="TEACHERS2DISCIPLINES" msdata:child="TEACHERS" msdata:parentkey="TEACHERS_ID_TEACHER" msdata:childkey="ID_TEACHER" msprop:Generator_UserRelationName="TEACHERS2DISCIPLINES_TEACHERS" msprop:Generator_RelationVarName="relationTEACHERS2DISCIPLINES_TEACHERS" msprop:Generator_UserChildTable="TEACHERS" msprop:Generator_UserParentTable="TEACHERS2DISCIPLINES" msprop:Generator_ParentPropName="TEACHERS2DISCIPLINESRow" msprop:Generator_ChildPropName="GetTEACHERSRows" />
+      <msdata:Relationship name="MARKS_TEACHERS" msdata:parent="MARKS" msdata:child="TEACHERS" msdata:parentkey="ID_TEACHER" msdata:childkey="ID_TEACHER" msprop:Generator_UserRelationName="MARKS_TEACHERS" msprop:Generator_RelationVarName="relationMARKS_TEACHERS" msprop:Generator_UserChildTable="TEACHERS" msprop:Generator_UserParentTable="MARKS" msprop:Generator_ParentPropName="MARKSRow" msprop:Generator_ChildPropName="GetTEACHERSRows" />
+      <msdata:Relationship name="DISCIPLINES_MARKS" msdata:parent="MARKS" msdata:child="DISCIPLINES" msdata:parentkey="ID_DISCIPLINE" msdata:childkey="ID_DISCIPLINE" msprop:Generator_UserRelationName="DISCIPLINES_MARKS" msprop:Generator_RelationVarName="relationDISCIPLINES_MARKS" msprop:Generator_UserChildTable="DISCIPLINES" msprop:Generator_UserParentTable="MARKS" msprop:Generator_ParentPropName="MARKSRow" msprop:Generator_ChildPropName="GetDISCIPLINESRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
