@@ -18,7 +18,7 @@
 
 **Оценка**: 5
 
-`Посмотреть скриншоты по ЭУСУ <#%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B-%D0%BF%D0%BE-%D0%AD%D0%A3%D0%A1%D0%A3>`_ (как-нибудь попозже загружу фотографии рабочего прототипа)
+`Посмотреть скриншоты по ЭУСУ <#%D0%A1%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B-%D0%BF%D0%BE-%D0%AD%D0%A3%D0%A1%D0%A3>`_
 
 
 Скриншоты по базам данных
@@ -37,3 +37,11 @@
 -----------------
 
 .. image:: https://raw.github.com/saippuakauppias/my_university_files/master/3_year/eusu/screenshot1.png
+
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/3_year/eusu/photo1.jpg
+
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/3_year/eusu/photo2.jpg
+
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/3_year/eusu/photo3.jpg
+
+.. image:: https://raw.github.com/saippuakauppias/my_university_files/master/3_year/eusu/photo4.jpg
