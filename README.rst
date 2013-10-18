@@ -10,10 +10,3 @@ my_university_files
 .. image:: https://d2weczhvl823v0.cloudfront.net/saippuakauppias/my_university_files/trend.png
    :alt: Bitdeli badge
    :target: https://bitdeli.com/free
-
-
-
-.. image:: https://d2weczhvl823v0.cloudfront.net/saippuakauppias/my_university_files/trend.png
-   :alt: Bitdeli badge
-   :target: https://bitdeli.com/free
-
